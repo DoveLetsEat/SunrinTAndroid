@@ -14,7 +14,8 @@
         android:supportsRtl="true"
         tools:replace="android:icon"
         android:theme="@style/AppTheme">
-        <activity android:name=".views.activitys.MainActivity">
+        <activity android:name=".views.activitys.MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,17 +23,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".views.activitys.DetailViewActivity"
-            android:enabled="true" />
-
-        <!--
-            Test Activity registed
-         -->
-
-
-
-
-
-
+            android:enabled="true"
+            android:screenOrientation="portrait"/>
 
         <!--
             Google Map SDK Key !!
