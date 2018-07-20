@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="16dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/metainfo_now_status"
+        android:text="영업중"
+        android:textSize="24sp"
+        android:textColor="@color/colorGreen"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentEnd="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/metainfo_distance"
+            android:text="500m"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlue"/>
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/metainfo_goto_detail"
+            android:src="@drawable/ic_info_white"
+            android:layout_marginTop="8dp"
+            app:elevation="4dp"
+            app:fabSize="mini"
+            android:layout_marginBottom="16dp"/>
+    </LinearLayout>
+</RelativeLayout>

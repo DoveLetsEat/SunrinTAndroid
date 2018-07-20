@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">SunrinTAndroid</string>
+    <string name="app_name">너의 주차는</string>
+    <string-array name="filter_option_names">
+        <item>전체</item>
+        <item>무료</item>
+        <item>유료</item>
+    </string-array>
+    <string-array name="filter_option_values">
+        <item>all</item>
+        <item>free</item>
+        <item>price</item>
+    </string-array>
 </resources>
